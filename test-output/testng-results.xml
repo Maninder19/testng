@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-12T23:36:48Z" name="Suite" finished-at="2022-04-12T23:37:26Z" duration-ms="38581">
+    <groups>
+      <group name="Sanity">
+        <method signature="CardTest.CreditCardTest()[pri:0, instance:testng.CardTest@3e6f3f28]" name="CreditCardTest" class="testng.CardTest"/>
+        <method signature="LoanTest.CarLoanTest()[pri:1, instance:testng.LoanTest@7e19ebf0]" name="CarLoanTest" class="testng.LoanTest"/>
+        <method signature="LoginTest.LoginTestcase(java.lang.String, java.lang.String)[pri:0, instance:testng.LoginTest@2474f125]" name="LoginTestcase" class="testng.LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2022-04-12T23:36:48Z" name="Test" finished-at="2022-04-12T23:37:26Z" duration-ms="38581">
+      <class name="testng.CardTest">
+        <test-method signature="CreditCardTest()[pri:0, instance:testng.CardTest@3e6f3f28]" started-at="2022-04-12T23:36:48Z" name="CreditCardTest" finished-at="2022-04-12T23:36:48Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreditCardTest -->
+      </class> <!-- testng.CardTest -->
+      <class name="testng.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testng.LoginTest@2474f125]" started-at="2022-04-12T23:36:48Z" name="SetUp" finished-at="2022-04-12T23:37:24Z" duration-ms="36524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LoginTestcase(java.lang.String, java.lang.String)[pri:0, instance:testng.LoginTest@2474f125]" started-at="2022-04-12T23:37:24Z" name="LoginTestcase" finished-at="2022-04-12T23:37:26Z" duration-ms="1993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcase -->
+      </class> <!-- testng.LoginTest -->
+      <class name="testng.LoanTest">
+        <test-method is-config="true" signature="method1()[pri:0, instance:testng.LoanTest@7e19ebf0]" started-at="2022-04-12T23:37:26Z" name="method1" finished-at="2022-04-12T23:37:26Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="CarLoanTest()[pri:1, instance:testng.LoanTest@7e19ebf0]" started-at="2022-04-12T23:37:26Z" name="CarLoanTest" finished-at="2022-04-12T23:37:26Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanTest -->
+      </class> <!-- testng.LoanTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
